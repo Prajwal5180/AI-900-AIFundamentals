@@ -1,9 +1,9 @@
 
 # Lab 04: Translate text and audio with Azure AI Translator
 
-### Estimated Duration: 60 minutes
+## Estimated Duration: 60 minutes
 
-### Overview
+## Overview
 
 One of the driving forces that has enabled human civilization to develop is the ability to communicate with one another. In most human endeavors, communication is key.
 
@@ -11,14 +11,13 @@ Artificial Intelligence (AI) can help simplify communication by translating text
 
 To test the capabilities of the Translator service, we'll use a simple command-line application that runs in the Cloud Shell. The same principles and functionality apply to real-world solutions, such as websites or phone apps.
 
-### Lab Objectives
+## Lab Objectives
 
 You will be able to complete the following tasks:
 
-  - Task 1: Run Cloud Shell
-  - Task 2: Configure and run a client application
+  - Task 1: Configure and run a client application
 
-### Task 1: Run Cloud Shell
+## Task 1: Configure and run a client application
 
 To test the capabilities of the Translation service, we'll use a simple command-line application that runs in the Cloud Shell on Azure. 
 
@@ -30,9 +29,7 @@ To test the capabilities of the Translation service, we'll use a simple command-
 
     ![Start Cloud Shell by clicking on the icon to the right of the top search box](../media/azure-ai-search-lab4-2.png)
 
-### Task 2: Configure and run a client application
-
-Now that you have a custom model, you can run a simple client application that uses the Translation service.
+    Now that you have a custom model, you can run a simple client application that uses the Translation service.
 
 1. The required files are downloaded to a folder named **ai-search** in the previous lab. Now we want to see all of the files in your Cloud Shell storage and work with them. Type the following command into the shell: 
 
@@ -50,7 +47,7 @@ Now that you have a custom model, you can run a simple client application that u
 
 1. Don't worry too much about the details of the code, the important thing is that it needs the region/location and either of the keys for your Azure AI Services resource. Copy the values of **KEY 1** and **Location/Region** value from *Keys and Endpoints* page for your **aiservice-<inject key="DeploymentID" enableCopy="false"/>*** resource from the Azure portal and paste them into the code editor.
 
-    ![Find the key and endpoint tab in your Azure AI Services resource's left hand pane.](../media/lab4b-1.png)
+    ![Find the key and endpoint tab in your Azure AI Services resource's left hand pane.](../media/azure-ai-search-lab4-3.png)
 
     > **Note:** The Translator service does not require the use of the Azure AI Service endpoint, so there is no need to modify the Translator service endpoint. Instead, a dedicated global endpoint is available specifically for the Translator service. 
 
@@ -81,7 +78,6 @@ Now that you have a custom model, you can run a simple client application that u
 ### Summary
 
 In this lab you have covered the following:
-  - Run Cloud Shell
   - Configured and run a client application
 
 ### Learn more

@@ -23,7 +23,7 @@ You will be able to complete the following tasks:
   - Task 5: Prepare a client application
   - Task 6: Test the client application
 
-### Task 1: Create a Custom Vision project
+## Task 1: Create a Custom Vision project
 
 To train an object detection model, you need to create a Custom Vision project based on your training resource. To do this, you'll use the Custom Vision portal.
 
@@ -50,7 +50,7 @@ To train an object detection model, you need to create a Custom Vision project b
     
 3. Wait for the project to be created and opened in the browser.
 
-### Task 2: Add and tag images
+## Task 2: Add and tag images
 
 To train an object detection model, you need to upload images that contain the classes you want the model to identify, and tag them to indicate bounding boxes for each object instance.
 
@@ -82,7 +82,7 @@ To train an object detection model, you need to upload images that contain the c
 
       ![Picture1](../media/tagged-images-3b.png)
 
-### Task 3: Train and test a model
+## Task 3: Train and test a model
 
 Now that you've tagged the images in your project, you're ready to train a model.
 
@@ -115,7 +115,7 @@ Now that you've tagged the images in your project, you're ready to train a model
 
 5. Then close the **Quick Test** window.
 
-### Task 4: Publish the object detection model
+## Task 4: Publish the object detection model
 
 Now you're ready to publish your trained model and use it from a client application.
 
@@ -134,7 +134,7 @@ Now you're ready to publish your trained model and use it from a client applicat
        
 Later, you will need the appropriate URL and Prediction-Key values to get a prediction from an Image URL, so keep this dialog box open and carry on to the next task.
 
-### Task 5: Prepare a client application
+## Task 5: Prepare a client application
 
 To test the capabilities of the Custom Vision service, we'll use a simple command-line application that runs in the cloud shell on Azure.
 
@@ -171,7 +171,7 @@ To test the capabilities of the Custom Vision service, we'll use a simple comman
 
 6. After making the changes to the variables in the code, press **CTRL+S** to save the file. 
 
-### Task 6: Test the client application
+## Task 6: Test the client application
 
 Now you can use the sample client application to detect cyclists and pedestrians in images.
 
